@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCEPT BEAUTÉ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+            <div class="logo">
+                <h1>CONCEPT BEAUTÉ</h1>
+            </div>
+            <div class="header-icons">
+                <div class="user-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#" class="highlight">Prendre rendez-vous</a></li>
+                <li><a href="#">Visage</a></li>
+                <li><a href="#">Mains</a></li>
+                <li><a href="#">Corps</a></li>
+                <li><a href="#">Pieds</a></li>
+                <li><a href="#">Medico-Esthétique</a></li>
+                <li><a href="#">Épilation</a></li>
+                <li><a href="#">Massothérapie</a></li>
+                <li><a href="#">Maquillage</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Plans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Subscription Section -->
+        <section class="subscription-section">
+            <h2 class="section-title">LES ABONNEMENTS</h2>
+            <div class="subscription-content">
+                <div class="subscription-image">
+                    <img src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600&h=800&fit=crop" alt="Femme" />
+                </div>
+                <div class="subscription-text">
+                    <h3>Offrez-vous l'expérience Abonnée Concept Beauté</h3>
+                    <p>Découvrez notre programme d'abonnement exclusif conçu pour vous offrir une expérience beauté inégalée. En tant qu'abonnée, vous bénéficierez d'avantages privilégiés et d'un accès prioritaire à nos services.</p>
+                    <p>Profitez de réductions exclusives sur tous nos soins, de cadeaux surprises réguliers et d'un accès anticipé à nos nouvelles collections de produits. Notre équipe d'experts se consacre à vous offrir une expérience personnalisée et sur mesure.</p>
+                    <p>Rejoignez notre communauté de passionnées de la beauté et transformez chaque visite en un moment de détente et de bien-être unique.</p>
+                    <a href="#" class="cta-button">Découvrir nos abonnements</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Treatments Section -->
+        <section class="treatments-section">
+            <h2 class="section-title">NOS SOINS</h2>
+            <div class="treatments-grid">
+                <div class="treatment-card">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=300&fit=crop" alt="Soin visage" />
+                    <h4>Visage</h4>
+                </div>
+                <div class="treatment-card">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop" alt="Soin mains" />
+                    <h4>Mains</h4>
+                </div>
+                <div class="treatment-card">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop" alt="Soin corps" />
+                    <h4>Corps</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CONCEPT BEAUTÉ. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-button" id="chatButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </div>
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <h3>Assistant Concept Beauté</h3>
+                <button class="close-button" id="closeButton">&times;</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <p>Bonjour ! Je suis votre assistante virtuelle chez Concept Beauté. Comment puis-je vous aider aujourd'hui ?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Écrivez votre message..." />
+                <button id="sendButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const WEBHOOK_URL = 'https://tomrob.app.n8n.cloud/webhook/d21b4fc8-2136-4205-ad81-10fde8e3ccbc';
+        
+        // Generate or retrieve session ID
+        let sessionID = localStorage.getItem('chatSessionID');
+        if (!sessionID) {
+            sessionID = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('chatSessionID', sessionID);
+        }
+        
+        const chatButton = document.getElementById('chatButton');
+        const chatWindow = document.getElementById('chatWindow');
+        const closeButton = document.getElementById('closeButton');
+        const chatInput = document.getElementById('chatInput');
+        const sendButton = document.getElementById('sendButton');
+        const chatMessages = document.getElementById('chatMessages');
+
+        chatButton.addEventListener('click', () => {
+            chatWindow.classList.toggle('open');
+        });
+
+        closeButton.addEventListener('click', () => {
+            chatWindow.classList.remove('open');
+        });
+
+        function addMessage(text, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+            messageDiv.innerHTML = `<p>${text}</p>`;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            addMessage(message, true);
+            chatInput.value = '';
+
+            // Show typing indicator
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'message bot typing';
+            typingDiv.innerHTML = '<p>...</p>';
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        message: message,
+                        sessionID: sessionID
+                    }),
+                });
+
+                // Remove typing indicator
+                chatMessages.removeChild(typingDiv);
+
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+
+                if (response.ok) {
+                    const contentType = response.headers.get('content-type');
+                    console.log('Content-Type:', contentType);
+                    
+                    let data;
+                    if (contentType && contentType.includes('application/json')) {
+                        data = await response.json();
+                        console.log('Webhook JSON response:', data);
+                        console.log('Response keys:', Object.keys(data));
+                        
+                        // Try multiple possible response fields
+                        const botResponse = data.response || data.output || data.message || data.text || JSON.stringify(data);
+                        addMessage(botResponse, false);
+                    } else {
+                        // Handle plain text response
+                        const textResponse = await response.text();
+                        console.log('Webhook text response:', textResponse);
+                        addMessage(textResponse, false);
+                    }
+                } else {
+                    const errorText = await response.text();
+                    console.error('Error response:', errorText);
+                    addMessage('Désolé, une erreur est survenue. Veuillez réessayer.', false);
+                }
+            } catch (error) {
+                chatMessages.removeChild(typingDiv);
+                addMessage('Désolé, je ne peux pas me connecter au service. Veuillez réessayer plus tard.', false);
+                console.error('Error:', error);
+            }
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
